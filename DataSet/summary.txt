@@ -1,0 +1,8 @@
+Row count: 147
+
+                      Min             Max Average
+sepal_length          4.3             7.9    5.86
+sepal_width           2.0             4.4    3.06
+petal_length          1.0             6.9    3.78
+petal_width           0.1             2.5    1.21
+species       Iris-setosa  Iris-virginica        
