@@ -22,15 +22,50 @@ The raw file ships without a header row, so column names are assigned on import.
 
 ## Repository Structure
 
+```
+.
+├── DataSet/
+│   ├── iris.data            # Raw dataset from UCI (no header)
+│   ├── clean_iris.csv       # Cleaned dataset (duplicates/nulls removed)
+│   └── iris_classes.csv     # Cleaned data + petal_category column
+├── notebook/
+│   ├── Iris_Project_Phases_1_2_3_4.ipynb   # Main analysis notebook
+│   └── summary.txt          # Auto-generated dataset summary (Phase 3)
+├── REFLECTION.md            # Group reflection (Phase 5)
+└── README.md
+```
+
 ## Steps Performed
+
+The project was completed in five phases.
 
 ## Phase 1 — Setup & GitHub Basics
 
+Created the shared GitHub repository and starter notebook; each member committed a "Hello Iris" cell to confirm their environment and Git workflow.
+
 ## Phase 2 — Python Fundamentals
+
+Demonstrated core Python features with commented examples:
+- **Variables** — stored dataset metadata (`n_rows = 150`, `n_columns = 5`, `n_species = 3`).
+- **Control structures** — an `if/else` that labels a petal "Large" or "Small" against a 1.5 cm threshold.
+- **Loops** — iterated over the list of species and printed each.
+- **Functions** — `classify_flower(sepal_length, petal_length)` returns a size label (`Small` / `Medium` / `Large`).
+
 
 ## Phase 3 — File Handling & Data Cleaning
 
+- Read the raw CSV with Python's built-in `csv` module and wrote **`summary.txt`** (row count, min/max, and average petal length).
+- Loaded the data with **pandas**, then checked column names, data types, and missing values.
+- Removed duplicate rows and any nulls, then saved the result as **`clean_iris.csv`**.
+- Cleaning removed **3 duplicate rows**, reducing the dataset from 150 to **147 rows**.
+
 ## Phase 4 — Analysis & Visualization
+
+- Counted flowers per species with a `for` loop (setosa 48, versicolor 50, virginica 49 after cleaning).
+- Categorized every flower by petal length into **Short** (< 2 cm), **Medium** (2–5 cm), and **Long** (> 5 cm) buckets.
+- Computed mean, median, min, and max of sepal and petal lengths, and grouped averages by species.
+- Built a histogram, bar chart, boxplot, and scatter plot (see below).
+- Exported the categorized data to **`iris_classes.csv`**.
 
 ## Phase 5 — Presentation & Reflection
 
@@ -75,5 +110,3 @@ Python 3.9+
 pandas
 matplotlib
 Jupyter Notebook
-
-(The csv and os modules used in Phase 3 are part of the Python standard library.)
