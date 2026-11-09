@@ -1,6 +1,6 @@
 # CIS502AssignmentOne
 
-A group data-analysis project exploring the classic Iris flower dataset. Working as junior data analysts for a botanical research center, our team cleaned the dataset, wrote Python programs demonstrating core language features, analyzed the measurements with pandas, and visualized the patterns that separate the three Iris species.
+A group data-analysis project exploring the Iris flower dataset. acting as junior data analysts for a botanical research center, our team cleaned the dataset, wrote Python programs demonstrating core language features, analyzed the measurements with pandas, and visualized the patterns that separate the three Iris species.
 
 ## Team
 
