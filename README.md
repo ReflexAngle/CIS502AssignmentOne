@@ -97,7 +97,7 @@ cd CIS502AssignmentOne
 ```
 2. Install the dependencies:
 ``` python
-pip install pandas matplotlib jupyter </pre>
+pip install pandas matplotlib jupyter 
 ```
 3. Launch the notebook and run all cells top to bottom:
 ```python
