@@ -28,7 +28,7 @@ The raw file ships without a header row, so column names are assigned on import.
 │   ├── iris.data            # Raw dataset from UCI (no header)
 │   ├── clean_iris.csv       # Cleaned dataset (duplicates/nulls removed)
 │   └── iris_classes.csv     # Cleaned data + petal_category column
-├── notebook/
+├── PythonFiles/
 │   ├── Iris_Project_Phases_1_2_3_4.ipynb   # Main analysis notebook
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
 ├── REFLECTION.md            # Group reflection (Phase 5)
