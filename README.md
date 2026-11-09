@@ -96,11 +96,11 @@ git clone https://github.com/ReflexAngle/CIS502AssignmentOne.git
 cd CIS502AssignmentOne
 ```
 2. Install the dependencies:
-``` python
+``` bash
 pip install pandas matplotlib jupyter 
 ```
 3. Launch the notebook and run all cells top to bottom:
-```python
+```bash
 jupyter notebook notebook/Iris_Project_Phases_1_2_3_4.ipynb
 ```
 
