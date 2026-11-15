@@ -36,3 +36,17 @@ Working with the group was fine. I noticed my team was interested in doing all t
 
 ### Lessons Learned
 I learned that I have a gaps in my knowledge. I have been programming for about 10 years now and going back to more of I guess the basics helps strengthen my understanding. The other thing is GitHub I learned that GitHub doesn't like notebooks and trying to merge two notebooks together throws a merge conflict due to its output being in Json, this is the second time and wont be the last I ran into an annoying area of GitHub the first being pushing file from Unity and I know it wont be the last.
+
+# Timur Zhomartov, Personal Reflection - Iris Dataset Project
+
+### Challenges Encountered
+As I am still learning programming, I faced challenges with GitHub and Python. I spent a lot of time figuring it out and used Google Colab, VS Code and other tools to help me work through issues and test my code
+
+### Group Dynamics 
+Working with my team was a great experience overall. Dividing up responsibilities and keeping each other updated on progress made it easier to coordinate our work, clean and analyze the data, and pull everything together for the final submission. However, I noticed a difference in our programming level. It felt that Bradley and Tensae have more experience with programming, so I had to push myself to learn more. 
+
+### Lessons Learned 
+This project helped me build more confidence with Python, data workflows, and GitHub version control. I also learned how valuable it is to test steps early, communicate clearly with teammates, and focus on understanding the underlying logic rather than rushing to finish
+
+
+
