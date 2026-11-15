@@ -25,3 +25,14 @@ Working with my group was helpful, but I noticed some differences in our levels 
 
 ### Lessons Learned
 I learned the importance of communication, patience, and allowing time for everyone to learn. I also gained more confidence in Python and realized the value of understanding concepts rather than simply completing tasks.
+
+# Bradley Petersen
+
+### Challenges Encountered
+While I am fine with programming getting back into using python was moderately difficult as I have grown use to languages like C# or Dart and their quirks. The other challenge was the repository I'm group dynamics I'm not normally the one who manages the repository.
+
+### Group Dynamics
+
+
+### Lessons Learned
+I learned that I have a gaps in my knowledge. I have been programming for about 10 years now and going back to more of I guess the basics helps strengthen my understanding. The other thing is GitHub I learned that GitHub doesn't like notebooks and trying to merge two notebooks together throws a merge conflict due to its output being in Json, this is the second time and wont be the last I ran into an annoying area of GitHub the first being pushing file from Unity and I know it wont be the last.
