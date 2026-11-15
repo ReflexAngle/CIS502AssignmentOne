@@ -7,7 +7,7 @@ A group data-analysis project exploring the Iris flower dataset. acting as junio
 | Member | Primary Contribution
 | --- | --- |
 | Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis |
-| Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization |
+| Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization | Decision Tree Classification
 | Timur Zhomartov | Loops, CSV file I/O & summary file, descriptive statistics |
 
 ## Dataset
@@ -30,6 +30,7 @@ The raw file ships without a header row, so column names are assigned on import.
 │   └── iris_classes.csv     # Cleaned data + petal_category column
 ├── PythonFiles/
 │   ├── Iris_Project_Phases_1_2_3_4.ipynb   # Main analysis notebook
+│   ├── iris.decision_tree.ipynb            # Decision Tree Classification
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
@@ -68,6 +69,19 @@ Demonstrated core Python features with commented examples:
 - Built a histogram, bar chart, boxplot, and scatter plot (see below).
 - Exported the categorized data to **`iris_classes.csv`**.
 
+## Decision Tree Classification
+
+As an additional part of our analysis, we built a Decision Tree model using Python's scikit-learn library to predict Iris flower species based on their measurements.
+
+- Used the cleaned dataset containing 147 flowers.
+- Used sepal length, sepal width, petal length, and petal width as input features.
+- Split the dataset into 80% training data (117 flowers) and 20% testing data (30 flowers).
+- Trained a Decision Tree classifier with a maximum depth of 3.
+- Achieved 96.67% accuracy, correctly predicting 29 out of 30 flowers.
+- The model primarily used petal length and petal width to classify the species.
+
+The results showed that Decision Trees can effectively classify Iris flowers using their physical measurements.
+
 ## Phase 5 — Presentation & Reflection
 
 Polished the notebook with Markdown explanations and thorough comments, wrote this README, prepared a 10-minute group presentation, and documented the group reflection in REFLECTION.md.
@@ -78,6 +92,8 @@ Polished the notebook with Markdown explanations and thorough comments, wrote th
 - Sepal length and sepal width are not strongly correlated across the full dataset — the scatter forms a loose cloud rather than a straight line. A positive trend does appear within each species, but it is masked when the three species are pooled together because each occupies a different region of the plot.
 
 - Petal measurements are the most useful features for separating species; sepal width is the least useful, since all three species overlap heavily on that dimension.
+
+- The Decision Tree model achieved 96.67% test accuracy, correctly classifying 29 out of 30 Iris flowers. Petal length and petal width were the most important measurements used by the model.
 
 ## Example Graphs
 
@@ -97,11 +113,12 @@ cd CIS502AssignmentOne
 ```
 2. Install the dependencies:
 ``` bash
-pip install pandas matplotlib jupyter 
+pip install pandas matplotlib jupyter
+pip install scikit-learn
 ```
 3. Launch the notebook and run all cells top to bottom:
 ```bash
-jupyter notebook notebook/Iris_Project_Phases_1_2_3_4.ipynb
+jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4.ipynb
 ```
 
 ## Running the notebook regenerates summary.txt, clean_iris.csv, and iris_classes.csv.
@@ -109,5 +126,6 @@ jupyter notebook notebook/Iris_Project_Phases_1_2_3_4.ipynb
 ### Requirements
 Python 3.9+
 pandas
+scikit-learn
 matplotlib
 Jupyter Notebook
