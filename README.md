@@ -82,6 +82,13 @@ As an additional part of our analysis, we built a Decision Tree model using Pyth
 
 The results showed that Decision Trees can effectively classify Iris flowers using their physical measurements.
 
+## K-Nearest Neighbor Classifier
+- Used the cleaned dataset containing 147 flowers.
+- used a K value of 7 to classify the flower based on its seven neighbors
+- used a standard 80 / 20 train test split
+- Similar to the Decision Tree we achieved 96.67% accuracy, correctly predicting 29 out of 30 flowers.
+
+
 ## Phase 5 — Presentation & Reflection
 
 Polished the notebook with Markdown explanations and thorough comments, wrote this README, prepared a 10-minute group presentation, and documented the group reflection in REFLECTION.md.
