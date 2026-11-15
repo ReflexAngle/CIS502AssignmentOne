@@ -1,6 +1,0 @@
-Dataset Summary
-----------------
-Total Rows: 150
-Min Petal Length: 1.0
-Max Petal Length: 6.9
-Average Petal Length: 3.76
