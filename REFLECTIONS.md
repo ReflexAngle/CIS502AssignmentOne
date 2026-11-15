@@ -29,7 +29,7 @@ I learned the importance of communication, patience, and allowing time for every
 # Bradley Petersen, Personal Reflection – Iris Dataset Project
 
 ### Challenges Encountered
-While I am fine with programming getting back into using python was moderately difficult as I have grown use to languages like C# or Dart and their quirks. The other challenge was the repository I'm group dynamics I'm not normally the one who manages the repository.
+While I am fine with programming getting back into using python was moderately difficult as I have grown use to languages like C# or Dart and their quirks. The other challenge was the repository I'm group dynamics I'm not normally the one who manages the repository, so being responsible was new to me. Other challenges was that GitHub doesn't like notebook files so when committing a PR it throws a PR this was resolved by using npstripout to filter out the metadatafrom the Json outputs when committing changes.
 
 ### Group Dynamics
 Working with the group was fine. I noticed my team was interested in doing all the work in the assignment even when it wasn't needed which is good as it shows an actual interest in learning programming.
