@@ -7,7 +7,7 @@ A group data-analysis project exploring the Iris flower dataset. acting as junio
 | Member | Primary Contribution
 | --- | --- | 
 | Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis |
-| Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization | Decision Tree Classification |
+| Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization, Decision Tree Classification |
 | Timur Zhomartov | Loops, CSV file I/O & summary file, descriptive statistics |
 
 ## Dataset
