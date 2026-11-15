@@ -84,9 +84,11 @@ The results showed that Decision Trees can effectively classify Iris flowers usi
 
 ## K-Nearest Neighbor Classifier
 - Used the cleaned dataset containing 147 flowers.
-- used a K value of 7 to classify the flower based on its seven neighbors
-- used a standard 80 / 20 train test split
+- used a K value of 7 to classify the flower based on its seven neighbors.
+- used a standard 80 / 20 train test split.
 - Similar to the Decision Tree we achieved 96.67% accuracy, correctly predicting 29 out of 30 flowers.
+
+The KNN shows that by using the neighbors we can accurately classify an Iris flower.
 
 
 ## Phase 5 — Presentation & Reflection
