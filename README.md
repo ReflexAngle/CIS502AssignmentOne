@@ -31,7 +31,7 @@ The raw file ships without a header row, so column names are assigned on import.
 ├── PythonFiles/
 │   ├── Iris_Project_Phases_1_2_3_4_5.ipynb   # Main analysis notebook
 │   ├── iris_decision_tree.ipynb            # Decision Tree Classification
-│   ├── predictive_model.ipynb              # KNN Classification
+│   ├── KNN_predictive_model.ipynb              # KNN Classification
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
