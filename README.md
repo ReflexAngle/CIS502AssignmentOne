@@ -6,7 +6,7 @@ A group data-analysis project exploring the Iris flower dataset. acting as junio
 
 | Member | Primary Contribution
 | --- | --- | 
-| Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis |
+| Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis, K-Nearest Neighbor Classifier |
 | Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization, Decision Tree Classification |
 | Timur Zhomartov | Loops, CSV file I/O & summary file, descriptive statistics |
 
@@ -29,8 +29,9 @@ The raw file ships without a header row, so column names are assigned on import.
 │   ├── clean_iris.csv       # Cleaned dataset (duplicates/nulls removed)
 │   └── iris_classes.csv     # Cleaned data + petal_category column
 ├── PythonFiles/
-│   ├── Iris_Project_Phases_1_2_3_4.ipynb   # Main analysis notebook
-│   ├── iris.decision_tree.ipynb            # Decision Tree Classification
+│   ├── Iris_Project_Phases_1_2_3_4_5.ipynb   # Main analysis notebook
+│   ├── iris_decision_tree.ipynb            # Decision Tree Classification
+│   ├── predictive_model.ipynb            # K-Nearest Neighbor Classifier
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
@@ -127,7 +128,7 @@ pip install scikit-learn
 ```
 3. Launch the notebook and run all cells top to bottom:
 ```bash
-jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4.ipynb
+jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4_5.ipynb
 ```
 
 ## Running the notebook regenerates summary.txt, clean_iris.csv, and iris_classes.csv.
