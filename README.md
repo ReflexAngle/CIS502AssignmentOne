@@ -6,7 +6,7 @@ A group data-analysis project exploring the Iris flower dataset. acting as junio
 
 | Member | Primary Contribution
 | --- | --- | 
-| Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis, K-Nearest Neighbor Classifier |
+| Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis |
 | Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization, Decision Tree Classification |
 | Timur Zhomartov | Loops, CSV file I/O & summary file, descriptive statistics |
 
@@ -29,9 +29,8 @@ The raw file ships without a header row, so column names are assigned on import.
 │   ├── clean_iris.csv       # Cleaned dataset (duplicates/nulls removed)
 │   └── iris_classes.csv     # Cleaned data + petal_category column
 ├── PythonFiles/
-│   ├── Iris_Project_Phases_1_2_3_4_5.ipynb   # Main analysis notebook
-│   ├── iris_decision_tree.ipynb            # Decision Tree Classification
-│   ├── predictive_model.ipynb            # K-Nearest Neighbor Classifier
+│   ├── Iris_Project_Phases_1_2_3_4.ipynb   # Main analysis notebook
+│   ├── iris.decision_tree.ipynb            # Decision Tree Classification
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
@@ -106,16 +105,21 @@ Polished the notebook with Markdown explanations and thorough comments, wrote th
 - The Decision Tree model achieved 96.67% test accuracy, correctly classifying 29 out of 30 Iris flowers. Petal length and petal width were the most important measurements used by the model.
 
 ## Example Graphs
-
 Petal length distribution by species
-
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output4.png" alt="Alt text" width="500">
+ </p>
 Average sepal length by species
-
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output3.png" alt="Alt text" width="500">
+ </p>
 Petal length range by species
-
-Sepal length vs sepal width by species
-
-## How to Run
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output2.png" alt="Alt text" width="500">
+ </p>Sepal length vs sepal width by species
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output.png" alt="Alt text" width="500">
+ </p>## How to Run
 1. Clone the repository:
 ```bash
 git clone https://github.com/ReflexAngle/CIS502AssignmentOne.git
@@ -128,7 +132,7 @@ pip install scikit-learn
 ```
 3. Launch the notebook and run all cells top to bottom:
 ```bash
-jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4_5.ipynb
+jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4.ipynb
 ```
 
 ## Running the notebook regenerates summary.txt, clean_iris.csv, and iris_classes.csv.
