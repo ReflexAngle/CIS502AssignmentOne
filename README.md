@@ -119,7 +119,9 @@ Petal length range by species
  </p>Sepal length vs sepal width by species
 <p>
 <img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output.png" alt="Alt text" width="500">
- </p>## How to Run
+ </p>
+ 
+## How to Run
 1. Clone the repository:
 ```bash
 git clone https://github.com/ReflexAngle/CIS502AssignmentOne.git
