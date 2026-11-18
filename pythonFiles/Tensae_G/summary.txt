@@ -1,0 +1,21 @@
+Total Rows: 150
+
+Sepal Length:
+  Minimum: 4.30
+  Maximum: 7.90
+  Average: 5.84
+
+Sepal Width:
+  Minimum: 2.00
+  Maximum: 4.40
+  Average: 3.05
+
+Petal Length:
+  Minimum: 1.00
+  Maximum: 6.90
+  Average: 3.76
+
+Petal Width:
+  Minimum: 0.10
+  Maximum: 2.50
+  Average: 1.20

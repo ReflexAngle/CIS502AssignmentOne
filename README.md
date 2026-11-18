@@ -5,9 +5,9 @@ A group data-analysis project exploring the Iris flower dataset. acting as junio
 ## Team
 
 | Member | Primary Contribution
-| --- | --- |
-| Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis |
-| Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization |
+| --- | --- | 
+| Bradley Petersen | Control structures, functions, data cleaning, visualizations, written analysis, KNN Classification |
+| Tensae Gonfa | Variables, data inspection (pandas), species counting, flower categorization, Decision Tree Classification |
 | Timur Zhomartov | Loops, CSV file I/O & summary file, descriptive statistics |
 
 ## Dataset
@@ -29,7 +29,9 @@ The raw file ships without a header row, so column names are assigned on import.
 │   ├── clean_iris.csv       # Cleaned dataset (duplicates/nulls removed)
 │   └── iris_classes.csv     # Cleaned data + petal_category column
 ├── PythonFiles/
-│   ├── Iris_Project_Phases_1_2_3_4.ipynb   # Main analysis notebook
+│   ├── Iris_Project_Phases_1_2_3_4_5.ipynb   # Main analysis notebook
+│   ├── iris_decision_tree.ipynb            # Decision Tree Classification
+│   ├── KNN_predictive_model.ipynb              # KNN Classification
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
@@ -68,6 +70,28 @@ Demonstrated core Python features with commented examples:
 - Built a histogram, bar chart, boxplot, and scatter plot (see below).
 - Exported the categorized data to **`iris_classes.csv`**.
 
+## Decision Tree Classification
+
+As an additional part of our analysis, we built a Decision Tree model using Python's scikit-learn library to predict Iris flower species based on their measurements.
+
+- Used the cleaned dataset containing 147 flowers.
+- Used sepal length, sepal width, petal length, and petal width as input features.
+- Split the dataset into 80% training data (117 flowers) and 20% testing data (30 flowers).
+- Trained a Decision Tree classifier with a maximum depth of 3.
+- Achieved 96.67% accuracy, correctly predicting 29 out of 30 flowers.
+- The model primarily used petal length and petal width to classify the species.
+
+The results showed that Decision Trees can effectively classify Iris flowers using their physical measurements.
+
+## K-Nearest Neighbor Classifier
+- Used the cleaned dataset containing 147 flowers.
+- used a K value of 7 to classify the flower based on its seven neighbors.
+- used a standard 80 / 20 train test split.
+- Similar to the Decision Tree we achieved 96.67% accuracy, correctly predicting 29 out of 30 flowers.
+
+The KNN shows that by using the neighbors we can accurately classify an Iris flower.
+
+
 ## Phase 5 — Presentation & Reflection
 
 Polished the notebook with Markdown explanations and thorough comments, wrote this README, prepared a 10-minute group presentation, and documented the group reflection in REFLECTION.md.
@@ -79,16 +103,25 @@ Polished the notebook with Markdown explanations and thorough comments, wrote th
 
 - Petal measurements are the most useful features for separating species; sepal width is the least useful, since all three species overlap heavily on that dimension.
 
+- The Decision Tree model achieved 96.67% test accuracy, correctly classifying 29 out of 30 Iris flowers. Petal length and petal width were the most important measurements used by the model.
+
 ## Example Graphs
-
 Petal length distribution by species
-
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output4.png" alt="Alt text" width="500">
+ </p>
 Average sepal length by species
-
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output3.png" alt="Alt text" width="500">
+ </p>
 Petal length range by species
-
-Sepal length vs sepal width by species
-
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output2.png" alt="Alt text" width="500">
+ </p>Sepal length vs sepal width by species
+<p>
+<img src="https://github.com/ReflexAngle/CIS502AssignmentOne/blob/main/pythonFiles/images/output.png" alt="Alt text" width="500">
+ </p>
+ 
 ## How to Run
 1. Clone the repository:
 ```bash
@@ -97,11 +130,12 @@ cd CIS502AssignmentOne
 ```
 2. Install the dependencies:
 ``` bash
-pip install pandas matplotlib jupyter 
+pip install pandas matplotlib jupyter
+pip install scikit-learn
 ```
 3. Launch the notebook and run all cells top to bottom:
 ```bash
-jupyter notebook notebook/Iris_Project_Phases_1_2_3_4.ipynb
+jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4_5.ipynb
 ```
 
 ## Running the notebook regenerates summary.txt, clean_iris.csv, and iris_classes.csv.
@@ -109,5 +143,6 @@ jupyter notebook notebook/Iris_Project_Phases_1_2_3_4.ipynb
 ### Requirements
 Python 3.9+
 pandas
+scikit-learn
 matplotlib
 Jupyter Notebook
