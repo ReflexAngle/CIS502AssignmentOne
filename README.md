@@ -33,6 +33,7 @@ The raw file ships without a header row, so column names are assigned on import.
 │   ├── iris_decision_tree.ipynb            # Decision Tree Classification
 │   ├── KNN_predictive_model.ipynb              # KNN Classification
 │   └── summary.txt          # Auto-generated dataset summary (Phase 3)
+├── Presentation.pdf
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
 └── README.md
