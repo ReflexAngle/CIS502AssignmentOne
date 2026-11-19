@@ -71,6 +71,9 @@ Demonstrated core Python features with commented examples:
 - Built a histogram, bar chart, boxplot, and scatter plot (see below).
 - Exported the categorized data to **`iris_classes.csv`**.
 
+## Logistic Regression
+
+
 ## Decision Tree Classification
 
 As an additional part of our analysis, we built a Decision Tree model using Python's scikit-learn library to predict Iris flower species based on their measurements.
