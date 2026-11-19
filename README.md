@@ -28,11 +28,21 @@ The raw file ships without a header row, so column names are assigned on import.
 │   ├── iris.data            # Raw dataset from UCI (no header)
 │   ├── clean_iris.csv       # Cleaned dataset (duplicates/nulls removed)
 │   └── iris_classes.csv     # Cleaned data + petal_category column
+├── Visuals                  # garbage folder for miscellaneous prints 
 ├── PythonFiles/
-│   ├── Iris_Project_Phases_1_2_3_4_5.ipynb   # Main analysis notebook
-│   ├── iris_decision_tree.ipynb            # Decision Tree Classification
-│   ├── KNN_predictive_model.ipynb              # KNN Classification
-│   └── summary.txt          # Auto-generated dataset summary (Phase 3)
+|   ├── Bradley
+|   ├── Tense 
+|   ├── Timur
+|   ├── Images                                #graph images
+|   |   ├── Output.png
+|   |   ├── Output2.png
+|   |   ├── Output3.png
+|   |   ├── Output4.png
+|   ├── Old_python_files                      # contains other phases of the project
+│   ├── Iris_Project_Phases_Finalized.ipynb   # Main analysis notebook
+│   ├── iris_decision_tree.ipynb              # Decision Tree Classification
+│   ├── KNN_predictive_model.ipynb            # KNN Classification
+│   └── summary.txt                           # Auto-generated dataset summary (Phase 3)
 ├── Presentation.pdf
 ├── REFLECTION.md            # Group reflection (Phase 5)
 ├── gitignore
