@@ -30,7 +30,7 @@ The raw file ships without a header row, so column names are assigned on import.
 │   └── iris_classes.csv     # Cleaned data + petal_category column
 ├── Visuals                  # garbage folder for miscellaneous prints 
 ├── PythonFiles/
-|   ├── Bradley
+|   ├── Bradley              # Name folders have work done by individuals 
 |   ├── Tense 
 |   ├── Timur
 |   ├── Images                                #graph images
