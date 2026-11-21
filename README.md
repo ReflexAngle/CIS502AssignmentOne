@@ -84,6 +84,13 @@ Demonstrated core Python features with commented examples:
 
 ## Logistic Regression
 
+We trained a Logistic Regression classifier using Python's `scikit-learn` library to predict Iris flower species from their physical measurements.
+
+- Used the cleaned dataset containing **147** flowers (**48** *Iris setosa*, **50** *Iris versicolor*, and **49** *Iris virginica*).
+- Used sepal length, sepal width, petal length, and petal width as input features.
+- Split the dataset into an 80% training set (**117** flowers) and a 20% testing set (**30** flowers).
+- Fit a multi-class Logistic Regression model using `scikit-learn` (`LogisticRegression`).
+- Evaluated performance on the held-out test set, showing strong classification accuracy driven largely by petal measurements.
 
 ## Decision Tree Classification
 
