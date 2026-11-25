@@ -157,7 +157,7 @@ pip install scikit-learn
 ```
 3. Launch the notebook and run all cells top to bottom:
 ```bash
-jupyter notebook PythonFiles/Iris_Project_Phases_1_2_3_4_5.ipynb
+jupyter notebook PythonFiles/Iris_Project_Phases_Finalized.ipynb
 ```
 
 ## Running the notebook regenerates summary.txt, clean_iris.csv, and iris_classes.csv.
